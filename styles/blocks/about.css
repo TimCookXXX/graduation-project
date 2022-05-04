@@ -1,0 +1,37 @@
+.about__sidebar {
+	width: 785px;
+	height: 455px;
+	margin-left: 354px;
+  margin-top: -413px;
+  position: absolute;
+	background-image: url(../../img/mountains.png);
+	border-radius: 5px;
+}
+
+.about__font {
+	padding: 78px 202px 66px 81px;
+}
+
+.about__title {
+	margin-bottom: 37px;
+	font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+	color: black;
+}
+
+.about__gates {
+	border-radius: 5px;
+}
+
+p {
+	margin-bottom: 43px;
+	font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+	color: #060606;
+}
+
+.about {
+	margin-bottom: 101px;
+}
