@@ -1,0 +1,135 @@
+.menu__footer {
+  margin-left: 78px;
+  margin-top: 50px;
+}
+
+.menu__item:last-child {
+  margin-right: 0px;
+}
+
+.contacts__phone {
+  font-size: 26px;
+  line-height: 30px;
+  font-style: normal;
+}
+
+.contacts__info {
+  font-size: 13px;
+  font-style: normal;
+  line-height: 20px;
+  text-align: end;
+  margin-top: -3px;
+  margin-bottom: -5px;
+  text-decoration: underline;
+  color: #98A4A8;
+}
+
+.contacts__info:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+  transition: .4s;
+}
+
+.menu__link {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.menu__link:hover {
+  color: #DA0100;
+  transition: .4s;
+}
+
+.menu__item {
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.main__content {
+  margin-top: 124px;
+}
+
+header {
+	height: 124px;
+	margin-bottom: -51px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
+  padding-top: 29px;
+}
+
+.header__col--align--center {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.contacts {
+  margin-top: -67px;
+}
+
+.logo {
+  margin-right: 79px;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: -9999px;
+  opacity: 0;
+  position: absolute;
+}
+
+.dropdown__triangle {
+  border: 10px solid transparent;
+  width: 0;
+  height: 0;
+  border-bottom-color: #EDEDED;
+  border-top-width: 0;
+  margin-left: 53px;
+}
+
+.dropdown__desc {
+  width: 160px;
+  height: 67px;
+  background: #EDEDED;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown__info {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #1E1F20;
+  font-weight: bold;
+}
+
+.dropdown__dinner {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 21px;
+  color: #1E1F20;
+}
+
+.contacts__menu {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contacts__menu:hover .dropdown {
+  opacity: 1;
+  top: 15px;
+}
